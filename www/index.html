@@ -46,11 +46,22 @@
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
                 <p class="event received">Device is Ready</p>
-                 <ons-button onclick="alert('Hello World!')">Click Me</ons-button>
+                
+            </div>
+            <script type="text/javascript">
+				function al1(){
+					alert("222");
+				}
+			</script>
+            <div>
+            	<p>
+            		<ons-button onclick="alert('Hello World!')">Click Me</ons-button><br>
+            		<a href="#" onclick="al1()">text</a>
+            	</p>
             </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
-          <script type="text/javascript" src="js/onsenui.min.js"></script>
+        <script type="text/javascript" src="js/framework7.min.js"></script>
     </body>
 </html>
