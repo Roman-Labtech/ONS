@@ -64,12 +64,18 @@
     </ons-toolbar>
 
     <p>This is the second page.</p>
+      <ons-button onclick="alert('Hello World!')">Click Me</ons-button><br>
+       <a href="#" onclick="al1()">text</a>
+       
   </ons-page>
 </template>
-    
+            <script type="text/javascript">
+				function al1(){
+					alert("222");
+				}
+			</script>
 
-     <ons-button onclick="alert('Hello World!')">Click Me</ons-button><br>
-       <a href="#" onclick="al1()">text</a>
+   
 		</div>
       <!--  <div class="app">
             <h1>Apache Cordova</h1>
@@ -78,11 +84,7 @@
                 <p class="event received">Device is Ready</p>
                 
             </div>
-            <script type="text/javascript">
-				function al1(){
-					alert("222");
-				}
-			</script>
+    
             <div>
             	<p>
             		<ons-button onclick="alert('Hello World!')">Click Me</ons-button><br>
